@@ -608,7 +608,7 @@ main() {
     else
     echo 'Please execute the command: systemctl enable v2ray; systemctl start v2ray'
     fi
-  elif [[ -n "$stringtr" ]]; then
+  elif [[ -n "$operating_system_architecture" ]]; then
     bash -c "$(curl -L https://raw.githubusercontent.com/cheungxiii/v2ray-core/main/v2ray-install.sh)" @ install -u root
   fi
 
